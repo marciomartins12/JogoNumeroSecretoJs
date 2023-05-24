@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+:root{
+    --font-h1-pagolin: 'Pangolin', cursive;
+    --color-h1:#9F8BFF;
+    --cor-paragrafo-branco: #ffffff;
+    --cor-botao-start:#343CFF;
+    --fundo:url(../img/fundoPagina1contoiner.png);
+}
+@media screen and (min-width: 1024px) {
+body{
+    background-image: var(--fundo);
+    background-size: cover;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-paragrafo-branco);
+   font-family: var(--font-h1-pagolin);
+}
+.container{
+  margin-top: 11%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.numero-secreto{
+    font-size: 5em;
+    color: yellow;
+}
+.fale-iniciar-obs{
+   margin-top: 1em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  .tentando{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .h2-disse{
+    color: yellow;
+    margin-top: 0.75em;
+    font-size: 4em;
+  }
+  .disse{
+    margin-top: 0.55em;
+    font-size: 2.5em;
+    padding: 1em;
+    border: 1px outset var(--cor-paragrafo-branco);
+    border-radius: 1.35em;
+  }
+  .mais-ou-menos{
+    color: var(--cor-paragrafo-branco);
+    font-size: 2em;
+    margin: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .fale-iniciar-obs{
+    font-size: 1.6em;
+  }
+  .section-vitoria{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url("../img/bluepan.png") ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+  .h1-vitoria{
+    font-size: 8em;
+    color: yellow;
+    font-weight: 800;
+  }
+  .paragrafo-vitoria{
+    font-size: 3em;
+    color: yellow;
+  }
+}
