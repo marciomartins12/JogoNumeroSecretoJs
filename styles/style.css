@@ -4,7 +4,52 @@
     --color-h1:#9F8BFF;
     --cor-paragrafo-branco: #ffffff;
     --cor-botao-start:#343CFF;
+
+
 }
+@media  screen and (max-width: 1023px) {
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-h1-pagolin);
+    background-image: url(../img/fundoMobile.png);
+    background-size: contain;
+    justify-content: center;
+  
+   
+}
+.container{
+    margin-top:80%;
+}
+.h1-numero-secreto{
+    font-size: 3em; 
+    color: var(--cor-botao-start);
+    margin-bottom: 0.25em;
+}
+.paragrafo-objetivo-do-jogo{
+    margin-bottom: 1em;
+    color: black;
+    font-weight: 500;
+}
+.bota-link-start-game{
+    justify-content: center;
+    margin: 0 20%;
+    text-decoration: none;
+    color: white;
+    padding: 0.45em;
+    border-radius: 1em;
+    background-color: var(--cor-botao-start);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.pfvr{
+font-size: 1.5em;
+}
+}
+
 @media screen and (min-width: 1024px) {
 body{
     background-image: url("../img/fundoPagina1contoiner.png");

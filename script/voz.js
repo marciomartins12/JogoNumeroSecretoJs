@@ -6,7 +6,7 @@ recognition.addEventListener("result", (evento)=>{
     const oqueFOiFalado = evento.results[0][0].transcript
     if(isNaN(oqueFOiFalado)){
         document.querySelector(".disse").classList.add("edit-invalido")
-        document.querySelector(".disse").innerHTML="Inválido, por favor fale um número válido"
+        document.querySelector(".disse").innerHTML="Inválido"
     }else{
         trocarOqueFoiFalado(oqueFOiFalado);
     }

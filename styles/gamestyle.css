@@ -6,6 +6,90 @@
     --cor-botao-start:#343CFF;
     --fundo:url(../img/fundoPagina1contoiner.png);
 }
+@media screen and (max-width: 1023px){
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: var(--font-h1-pagolin);
+  background-image: url(../img/fundoMobile.png);
+  background-size: contain;
+  justify-content: center;
+
+
+}
+.container{
+  margin-top: 78%;
+
+}
+.numero-secreto{
+  font-size: 2em;
+  color: #343CFF;
+}
+.fale-iniciar-obs{
+  color: yellow;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.disse{
+  font-size: 1.5em;
+  color: yellow;
+  border: 2px solid white;
+  border-radius: 1em;
+  padding: 0.23em;
+
+}
+.mais-ou-menos{
+  margin-top: 0.5em;
+  font-size: 1.5em;
+}
+.displaynone{
+  display: none;
+}
+.h2-disse{
+  margin-bottom: 1em;
+  font-size: 1.25em;
+}
+/* vitoria */
+.section-vitoria{
+  margin-top: 90%;
+}
+.h1-vitoria{
+  font-size: 3em;
+}
+.btn-jogar-novamente{
+  text-decoration: none;
+  border-radius: 1em;
+  padding: 0.5em;
+  margin-top: 1.8em;
+  color: white;
+  background-color: var(--cor-botao-start);
+  margin: 1em 20% 0 20%;
+}
+.btn-voltar-para-o-inicio{
+  text-decoration: none;
+  border-radius: 0.8em;
+  padding: 0.1em;
+  margin: 1em 30% 0 30%;
+  
+  
+  color:var(--cor-botao-start) ;
+  background-color: white;
+}
+.paragrafo-vitoria{
+  font-size: 1.3em;
+  margin-bottom: 0.4em;
+}
+.div-class-vitoria{
+  display: flex;
+  flex-direction: column;
+}
+
+}
 @media screen and (min-width: 1024px) {
 body{
     background-image: var(--fundo);
@@ -89,6 +173,10 @@ body{
   .paragrafo-vitoria{
     font-size: 3em;
     color: yellow;
+  }
+  .div-class-vitoria{
+    display: flex;
+    flex-direction: column;
   }
   .btn-jogar-novamente{
     text-decoration: none;
