@@ -106,4 +106,7 @@ body{
     color:var(--cor-botao-start) ;
     background-color: white;
   }
+  .displaynone{
+    display: none;
+  }
 }
