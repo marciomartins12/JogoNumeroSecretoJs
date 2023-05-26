@@ -9,6 +9,9 @@ function enviaNumeroFalado(numerofalado){
         document.querySelector("body").innerHTML=`<section class="section-vitoria">
         <h3 class="h1-vitoria">Você acertou!</h3>
         <p class="paragrafo-vitoria">O número secreto era <span class="valor">${numerosecreto}</span></p>
+        
+        <a class="btn-jogar-novamente" href="../game.html">Jogar Novamente</a>
+        <a class="btn-voltar-para-o-inicio" href="../index.html">Voltar para o inicio</a>
         </section>`;
     }else if(numerox<numerosecreto){
         document.querySelector(".mais-ou-menos").innerHTML=`<p class="numerosrecetoe" >O número secreto é maior</p>
